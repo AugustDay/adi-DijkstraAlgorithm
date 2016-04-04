@@ -207,11 +207,7 @@ public class MyGraph implements Graph {
     	return destination;
     }
     
-    /**
-     * Searches through graph, finding the shortest path to each vertex and setting its new cost.
-     * I'm pretty sure there's imperfect logic in here somewhere. I don't think I'm setting
-     * known correctly once I go through, or something.
-     */
+    /** Searches through graph, finding the shortest path to each vertex and setting its new cost. */
     private void discoverVertices() {
     	PriorityQueue<Vertex> pq = new PriorityQueue<>(myGraph.keySet());
 		Vertex current, destination;
