@@ -1,3 +1,8 @@
+/* Austin Ingraham
+ * TCSS 342: Project 3 - Dijkstra's Algorithm
+ * MyGraph
+ */
+
 package model;
 
 import java.util.ArrayList;
